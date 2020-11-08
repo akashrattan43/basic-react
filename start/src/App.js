@@ -1,12 +1,12 @@
 import "./App.css";
+// import Tweet from './Tweet'
 function App() {
-  const items = [1, 2, 3];
-  items.map((item) => {
-    return item;
-  });
+  const sayHelloHandler = () => {
+    console.log(`Hello there`)
+  }
   return (
     <div>
-      <h1>Hello</h1>
+      <button onClick={sayHelloHandler}>Click</button>
     </div>
   );
 }
